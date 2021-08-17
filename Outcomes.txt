@@ -1,0 +1,18 @@
+Learned Tricks:
+1- Sometimes You make a hover to an element, and the hover effect keeps flickering like crazy:
+  Solution:
+    Create a parent element, give it a hover effect:
+      Example:
+        <div class=parent>
+          <div class=child>
+            child content
+          </div>
+        </div>
+
+      in the css:
+        .parent:hover .child {
+          The Hover Effect of the child.
+        }
+
+
+    
